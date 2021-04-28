@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>收集错误信息和解决方案 | 逍遥生-笔记o-o</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="favicon.ico">
+    <script>var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?ce5b5e7aef70331f91bf3366eeef2b2b";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+            })();
+            </script>
+    <meta name="description" content="前端, css, javascript, vue, js, 前端面试，前端博客">
+    
+    <link rel="preload" href="/EFlong/assets/css/0.styles.846f8531.css" as="style"><link rel="preload" href="/EFlong/assets/js/app.845b9e8a.js" as="script"><link rel="preload" href="/EFlong/assets/js/2.da8f2507.js" as="script"><link rel="preload" href="/EFlong/assets/js/12.6a0f7079.js" as="script"><link rel="prefetch" href="/EFlong/assets/js/10.56611305.js"><link rel="prefetch" href="/EFlong/assets/js/11.56b164f9.js"><link rel="prefetch" href="/EFlong/assets/js/13.59c691da.js"><link rel="prefetch" href="/EFlong/assets/js/14.2f44c376.js"><link rel="prefetch" href="/EFlong/assets/js/15.aea7bc27.js"><link rel="prefetch" href="/EFlong/assets/js/16.b645d410.js"><link rel="prefetch" href="/EFlong/assets/js/3.8c91f2d6.js"><link rel="prefetch" href="/EFlong/assets/js/4.acb38ae6.js"><link rel="prefetch" href="/EFlong/assets/js/5.22081cf9.js"><link rel="prefetch" href="/EFlong/assets/js/6.8d67372f.js"><link rel="prefetch" href="/EFlong/assets/js/7.dbe7a9db.js"><link rel="prefetch" href="/EFlong/assets/js/8.358e703f.js"><link rel="prefetch" href="/EFlong/assets/js/9.edee6cff.js">
+    <link rel="stylesheet" href="/EFlong/assets/css/0.styles.846f8531.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/EFlong/" class="home-link router-link-active"><!----> <span class="site-name">逍遥生-笔记o-o</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/EFlong/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端知识点" class="dropdown-title"><span class="title">前端知识点</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端知识点" class="mobile-dropdown-title"><span class="title">前端知识点</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/EFlong/css.html" class="nav-link">
+  css 关键
+</a></li><li class="dropdown-item"><!----> <a href="/EFlong/javascript.html" class="nav-link">
+  javascript
+</a></li><li class="dropdown-item"><!----> <a href="/EFlong/engineering.html" class="nav-link">
+  前端工程化
+</a></li><li class="dropdown-item"><!----> <a href="/EFlong/frame.html" class="nav-link">
+  框架
+</a></li><li class="dropdown-item"><!----> <a href="/EFlong/node.html" class="nav-link">
+  Node
+</a></li></ul></div></div><div class="nav-item"><a href="/EFlong/bibeiskill.html" class="nav-link">
+  动动手~
+</a></div><div class="nav-item"><a href="/EFlong/kuozhan.html" class="nav-link">
+  扩展
+</a></div><div class="nav-item"><a href="/EFlong/error.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  问题收集
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/EFlong/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端知识点" class="dropdown-title"><span class="title">前端知识点</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端知识点" class="mobile-dropdown-title"><span class="title">前端知识点</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/EFlong/css.html" class="nav-link">
+  css 关键
+</a></li><li class="dropdown-item"><!----> <a href="/EFlong/javascript.html" class="nav-link">
+  javascript
+</a></li><li class="dropdown-item"><!----> <a href="/EFlong/engineering.html" class="nav-link">
+  前端工程化
+</a></li><li class="dropdown-item"><!----> <a href="/EFlong/frame.html" class="nav-link">
+  框架
+</a></li><li class="dropdown-item"><!----> <a href="/EFlong/node.html" class="nav-link">
+  Node
+</a></li></ul></div></div><div class="nav-item"><a href="/EFlong/bibeiskill.html" class="nav-link">
+  动动手~
+</a></div><div class="nav-item"><a href="/EFlong/kuozhan.html" class="nav-link">
+  扩展
+</a></div><div class="nav-item"><a href="/EFlong/error.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  问题收集
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>收集错误信息和解决方案</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/EFlong/error.html#js-常见错误类型" class="sidebar-link">js 常见错误类型</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/EFlong/error.html#syntaxerror-语法错误" class="sidebar-link">SyntaxError: 语法错误</a></li><li class="sidebar-sub-header"><a href="/EFlong/error.html#typeerror-类型错误-调用不存在的方法-乱调用" class="sidebar-link">TypeError 类型错误(调用不存在的方法，乱调用)</a></li><li class="sidebar-sub-header"><a href="/EFlong/error.html#referenceerror-这玩意不存在" class="sidebar-link">ReferenceError 这玩意不存在</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="收集错误信息和解决方案"><a href="#收集错误信息和解决方案" class="header-anchor">#</a> 收集错误信息和解决方案</h1> <h2 id="js-常见错误类型"><a href="#js-常见错误类型" class="header-anchor">#</a> js 常见错误类型</h2> <h3 id="syntaxerror-语法错误"><a href="#syntaxerror-语法错误" class="header-anchor">#</a> SyntaxError: 语法错误</h3> <p>1、声明的变量名不符合规范：<strong>首位</strong>必须是 字母、下划线（_）或美元符号（$） var 1 // SyntaxError: Unexpected number</p> <p>2、给关键字赋值：function = 5 、 var 1a // <em>Uncaught SyntaxError: Unexpected token</em></p> <h3 id="typeerror-类型错误-调用不存在的方法-乱调用"><a href="#typeerror-类型错误-调用不存在的方法-乱调用" class="header-anchor">#</a> TypeError 类型错误(调用不存在的方法，乱调用)</h3> <p>1、调用不存在的方法 123() 、 var oo = {} oo.run()
+2、new 关键字后接基本类型： var a = new 123</p> <h3 id="referenceerror-这玩意不存在"><a href="#referenceerror-这玩意不存在" class="header-anchor">#</a> ReferenceError 这玩意不存在</h3> <p>1、调用了不存在的变量
+2、给一个无法被赋值的对象赋值：console.log(&quot;123&quot;) = 1</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">3/30/2021, 10:28:38 AM</span></div></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/EFlong/assets/js/app.845b9e8a.js" defer></script><script src="/EFlong/assets/js/2.da8f2507.js" defer></script><script src="/EFlong/assets/js/12.6a0f7079.js" defer></script>
+  </body>
+</html>
